@@ -1,1 +1,1 @@
-UPDATE characters SET name = "Martian" WHERE id = 4;
+UPDATE characters SET name = "Martian" WHERE id = MAX(id);
